@@ -72,4 +72,5 @@ group :test do
   # gem 'email_spec'
   gem 'rack_session_access'
   gem 'rspec-page-regression', github: 'teachbase/rspec-page-regression', branch: 'use-imatcher'
+  gem 'anycablebility', github: 'MaksimPW/anycablebility', branch: 'init-gem'
 end

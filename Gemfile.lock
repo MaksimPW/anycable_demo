@@ -1,4 +1,11 @@
 GIT
+  remote: git://github.com/MaksimPW/anycablebility.git
+  revision: 80a0c97e4a02c5b08ff2586b8c88d5df288dfcc3
+  branch: init-gem
+  specs:
+    anycablebility (0.1.0)
+
+GIT
   remote: git://github.com/stympy/faker.git
   revision: 70ff61d89e617f7a6335bd8c348bc656019af060
   specs:
@@ -330,6 +337,7 @@ PLATFORMS
 DEPENDENCIES
   active_model_serializers
   anycable (~> 0.1)
+  anycablebility!
   autoprefixer-rails
   better_errors
   binding_of_caller
@@ -374,4 +382,4 @@ DEPENDENCIES
   zonebie
 
 BUNDLED WITH
-   1.12.5
+   1.13.3
